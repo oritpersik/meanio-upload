@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('mean.mean-upload').controller('MeanUploadController', ['$scope', 'Global', 'MeanUpload',
+angular.module('mean.upload').controller('MeanUploadController', ['$scope', 'Global', 'MeanUpload',
   function($scope, Global, MeanUpload) {
     $scope.global = Global;
     $scope.images = [];

@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('mean.mean-upload').factory('MeanUpload', [
+angular.module('mean.upload').factory('MeanUpload', [
     function() {
         return {
             name: 'mean-upload'

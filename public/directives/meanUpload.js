@@ -1,8 +1,8 @@
 'use strict';
 
-angular.module('mean.mean-upload').directive('meanUpload', function($upload) {
+angular.module('mean.upload').directive('meanUpload', function($upload) {
     return {
-        templateUrl: 'mean-upload/views/directives/meanUpload.html',
+        templateUrl: 'upload/views/directives/meanUpload.html',
         scope: {
             fileDest: '=',
             uploadCallback: '&',
