@@ -25,14 +25,14 @@ upload-file-callback="uploadFileCallback(file)">
 </div>
 ```
 
- ```HTML
+```HTML
         <div class="" data-ng-controller="MeanCropController">
           <div class="example-container">
             <mean-window-crop target-width="100" target-height="100" img-src="'crop/assets/img/logo.png'" dest-dir="'packages/images/thumbs'" package-path="'packages/contrib'" convert-imgsrc="true"></mean-window-crop>
             <button class="btn btn-success" data-ng-click="crop()">Crop</button>
           </div>
         </div>
-    ```
+```
 
 ### Directive attributes
 file-dest = Default destination on server to upload the files to
