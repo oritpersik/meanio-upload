@@ -14,7 +14,8 @@ The package provides two callbacks:
 
 ### Usage
 To use it just integrate the folowing directive in to your angular view...
-```
+
+```HTML
 <mean-upload file-dest="'/packages/files/'"
 upload-callback="uploadFinished(files)"
 upload-file-callback="uploadFileCallback(file)">
