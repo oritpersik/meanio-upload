@@ -1,27 +1,23 @@
 {
-  "name": "upload",
-  "version": "0.0.4",
-  "description": "Some description of mean-upload",
-  "author": {
-    "name": "Orit Persik"
-  },
-  "mean": "0.3.3",
-  "engines": {
-    "node": "0.10.x",
-    "npm": "1.4.x"
-  },
+  "name": "meanio-upload",
+  "version": "1.0.0",
+  "description": "upload package for mean.io",
+  "main": "index.js",
   "scripts": {
-    "postinstall": "bower install"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
-    "connect-multiparty": "latest",
-    "mean-health": "~0.1.2"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oritpersik/meanio-upload.git"
   },
-  "license": "MIT",
-  "readme": "README: meanUpload\n\n__Not ready to be used!!! __\n",
-  "readmeFilename": "README.md",
-  "_id": "mean-upload@0.0.1",
-  "_shasum": "0758172db3da1c22c1db9c73293cfc84f923fbff",
-  "_from": "https://github.com/linnovate/mean-upload/tarball/master",
-  "_resolved": "https://github.com/linnovate/mean-upload/tarball/master"
+  "keywords": [
+    "meanio",
+    "upload"
+  ],
+  "author": "Orit Persik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oritpersik/meanio-upload/issues"
+  },
+  "homepage": "https://github.com/oritpersik/meanio-upload#readme"
 }
