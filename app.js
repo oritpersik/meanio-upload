@@ -17,17 +17,6 @@ Upload.register(function(app, auth, database) {
     //We enable routing. By default the Package Object is passed to the routes
     Upload.routes(app, auth, database);
 
-    Upload.aggregateAsset('js', '../lib/danialfarid-angular-file-upload/dist/angular-file-upload-shim.min.js', {
-        absolute: false
-    });
-    Upload.aggregateAsset('js', '../lib/danialfarid-angular-file-upload/dist/angular-file-upload.min.js', {
-        absolute: false
-    });
-
-    Upload.aggregateAsset('css', '../css/meanUpload.css', {
-        absolute: false
-    });
-
     Upload.angularDependencies(['angularFileUpload']);
 
     //We are adding a link to the main menu for all authenticated users

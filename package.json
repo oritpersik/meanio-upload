@@ -10,6 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/oritpersik/meanio-upload.git"
   },
+  "mean": "0.6.0",
   "keywords": [
     "meanio",
     "upload"

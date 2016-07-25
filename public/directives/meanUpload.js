@@ -18,13 +18,14 @@ angular.module('mean.upload').directive('meanUpload', function($upload) {
                 for (var i = 0; i < $files.length; i++) {
                     var file = $files[i];
                     $scope.upload = $upload.upload({
-                        url: 'meanUpload/upload',
+                        url: 'api/meanUpload/upload',
                         headers: {
                             'Content-Type': 'multipart/form-data'
                         },
                         data: {
                             dest: $scope.fileDest
                         },
+                        method:'POST',
                         file: file
                     }).progress(function(evt) {
                         console.log('percent: ' + parseInt(100.0 * evt.loaded / evt.total));
